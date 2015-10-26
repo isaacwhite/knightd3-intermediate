@@ -1,0 +1,119 @@
+<html>
+<head>
+    <title>Motor Vehicle Collisions in NYC</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+
+    <style type="text/css">
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        font-size: 8px;
+    }
+
+    </style>
+</head>
+<body>
+    <p>The NYPD keeps a record of vehicle collections which are reported in NYC. Data includes time, precise location, borough, zip code, possible contributing factors to the incident, as well as categories of persons injured/killed. Data has been condensed for this graphic to only expose aggregate data on borough deaths/injuries by month. Original data from <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95">NYC Open Data</a>.</p>
+
+</body>
+
+<script type="text/javascript">
+    (function () {
+        'use strict';
+
+        var d3 = window.d3;
+        var width = 900;
+        var height = 500;
+        var padding = {
+            top: 20,
+            right: 10,
+            bottom: 30,
+            left: 50
+        };
+
+        var xScale = d3.scale
+            .ordinal()
+            .rangeRoundBands([0, width - padding.right - padding.left], 0.1);
+
+        var yScale = d3.scale
+            .linear()
+            .range([height - padding.top - padding.bottom, 0]);
+
+        var xAxis = d3.svg
+            .axis()
+            .scale(xScale)
+            .orient('bottom');
+
+        var yAxis = d3.svg
+            .axis()
+            .scale(yScale)
+            .orient('left');
+
+        var svg = d3.select('body')
+            .append('svg')
+            .attr({
+                width: width,
+                height: height
+            });
+
+        d3.json('data_cleanup/output/nyc_motor_vehicle_collisions.json', function (data) {
+            var groups, bars;
+
+            data = data.reverse();
+            xScale.domain(data.map(function (datum) {
+                return datum.name;
+            }));
+
+            yScale.domain([0, d3.max(data, function (datum) {
+                return datum.all.deaths + datum.all.injuries;
+            })]);
+
+            groups = svg
+                .selectAll('g')
+                .data(data)
+                .enter()
+                .append('g')
+                .attr('class', 'bar');
+
+            bars = groups.append('rect')
+                .attr({
+                    x: function (datum) {
+                        return padding.left + xScale(datum.name);
+                    },
+                    y: function (datum) {
+                        return height - padding.top - yScale(datum.all.deaths + datum.all.injuries);
+                    },
+                    width: xScale.rangeBand(),
+                    height: 0,
+                    fill: 'steelblue'
+                });
+
+            bars.transition()
+                .delay(function(datum, index) {
+                    return index * 50;
+                })
+                .duration(1000)
+                .attr('height', function (datum) {
+                    return yScale(datum.all.deaths + datum.all.injuries);
+                });
+
+            svg.append('g')
+                .attr('class', 'x axis')
+                .attr('transform', 'translate(' + padding.left + ',' + (height - padding.bottom) + ')')
+                .call(xAxis);
+
+            svg.append('g')
+                .attr('class', 'y axis')
+                .attr('transform', 'translate(' + padding.left + ',0)')
+                .call(yAxis);
+
+        });
+    })();
+</script>
+</html>
