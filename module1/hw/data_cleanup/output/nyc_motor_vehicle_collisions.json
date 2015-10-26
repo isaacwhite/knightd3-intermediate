@@ -1,0 +1,1162 @@
+[
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 3,
+                "injuries": 720
+            },
+            "Manhattan": {
+                "deaths": 0,
+                "injuries": 421
+            },
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 361
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 632
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 85
+            }
+        },
+        "all": {
+            "deaths": 10,
+            "injuries": 2219
+        },
+        "name": "Oct 2015"
+    },
+    {
+        "breakdown": {
+            "Bronx": {
+                "deaths": 5,
+                "injuries": 507
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 123
+            },
+            "Brooklyn": {
+                "deaths": 2,
+                "injuries": 1260
+            },
+            "Manhattan": {
+                "deaths": 0,
+                "injuries": 550
+            },
+            "Queens": {
+                "deaths": 0,
+                "injuries": 916
+            }
+        },
+        "all": {
+            "deaths": 9,
+            "injuries": 3356
+        },
+        "name": "Sep 2015"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 7,
+                "injuries": 1285
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 599
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 544
+            },
+            "Queens": {
+                "deaths": 5,
+                "injuries": 933
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 137
+            }
+        },
+        "all": {
+            "deaths": 18,
+            "injuries": 3498
+        },
+        "name": "Aug 2015"
+    },
+    {
+        "breakdown": {
+            "Manhattan": {
+                "deaths": 0,
+                "injuries": 596
+            },
+            "Bronx": {
+                "deaths": 0,
+                "injuries": 495
+            },
+            "Queens": {
+                "deaths": 7,
+                "injuries": 967
+            },
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1274
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 145
+            }
+        },
+        "all": {
+            "deaths": 12,
+            "injuries": 3477
+        },
+        "name": "Jul 2015"
+    },
+    {
+        "breakdown": {
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 531
+            },
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 1208
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 1037
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 582
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 122
+            }
+        },
+        "all": {
+            "deaths": 16,
+            "injuries": 3480
+        },
+        "name": "Jun 2015"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 4,
+                "injuries": 983
+            },
+            "Manhattan": {
+                "deaths": 6,
+                "injuries": 593
+            },
+            "Brooklyn": {
+                "deaths": 9,
+                "injuries": 1334
+            },
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 513
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 150
+            }
+        },
+        "all": {
+            "deaths": 24,
+            "injuries": 3573
+        },
+        "name": "May 2015"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 5,
+                "injuries": 727
+            },
+            "Manhattan": {
+                "deaths": 1,
+                "injuries": 500
+            },
+            "Bronx": {
+                "deaths": 3,
+                "injuries": 456
+            },
+            "Brooklyn": {
+                "deaths": 4,
+                "injuries": 1058
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 112
+            }
+        },
+        "all": {
+            "deaths": 14,
+            "injuries": 2853
+        },
+        "name": "Apr 2015"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 3,
+                "injuries": 947
+            },
+            "Manhattan": {
+                "deaths": 1,
+                "injuries": 510
+            },
+            "Queens": {
+                "deaths": 1,
+                "injuries": 777
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 122
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 403
+            }
+        },
+        "all": {
+            "deaths": 8,
+            "injuries": 2759
+        },
+        "name": "Mar 2015"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 718
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 132
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 395
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 506
+            },
+            "Bronx": {
+                "deaths": 0,
+                "injuries": 250
+            }
+        },
+        "all": {
+            "deaths": 12,
+            "injuries": 2001
+        },
+        "name": "Feb 2015"
+    },
+    {
+        "breakdown": {
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 115
+            },
+            "Queens": {
+                "deaths": 5,
+                "injuries": 719
+            },
+            "Brooklyn": {
+                "deaths": 2,
+                "injuries": 940
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 402
+            },
+            "Manhattan": {
+                "deaths": 4,
+                "injuries": 409
+            }
+        },
+        "all": {
+            "deaths": 13,
+            "injuries": 2585
+        },
+        "name": "Jan 2015"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1203
+            },
+            "Queens": {
+                "deaths": 3,
+                "injuries": 860
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 118
+            },
+            "Bronx": {
+                "deaths": 0,
+                "injuries": 439
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 550
+            }
+        },
+        "all": {
+            "deaths": 11,
+            "injuries": 3170
+        },
+        "name": "Dec 2014"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1166
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 533
+            },
+            "Queens": {
+                "deaths": 5,
+                "injuries": 915
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 489
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 145
+            }
+        },
+        "all": {
+            "deaths": 16,
+            "injuries": 3248
+        },
+        "name": "Nov 2014"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 3,
+                "injuries": 1002
+            },
+            "Brooklyn": {
+                "deaths": 4,
+                "injuries": 1337
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 506
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 649
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 158
+            }
+        },
+        "all": {
+            "deaths": 12,
+            "injuries": 3652
+        },
+        "name": "Oct 2014"
+    },
+    {
+        "breakdown": {
+            "Manhattan": {
+                "deaths": 6,
+                "injuries": 513
+            },
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 552
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 809
+            },
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1294
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 132
+            }
+        },
+        "all": {
+            "deaths": 19,
+            "injuries": 3300
+        },
+        "name": "Sep 2014"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 4,
+                "injuries": 1259
+            },
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 480
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 618
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 854
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 145
+            }
+        },
+        "all": {
+            "deaths": 12,
+            "injuries": 3356
+        },
+        "name": "Aug 2014"
+    },
+    {
+        "breakdown": {
+            "Manhattan": {
+                "deaths": 4,
+                "injuries": 642
+            },
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 543
+            },
+            "Queens": {
+                "deaths": 9,
+                "injuries": 902
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 129
+            },
+            "Brooklyn": {
+                "deaths": 7,
+                "injuries": 1242
+            }
+        },
+        "all": {
+            "deaths": 23,
+            "injuries": 3458
+        },
+        "name": "Jul 2014"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1398
+            },
+            "Queens": {
+                "deaths": 7,
+                "injuries": 925
+            },
+            "Manhattan": {
+                "deaths": 1,
+                "injuries": 663
+            },
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 642
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 142
+            }
+        },
+        "all": {
+            "deaths": 16,
+            "injuries": 3770
+        },
+        "name": "Jun 2014"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 9,
+                "injuries": 1201
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 604
+            },
+            "Queens": {
+                "deaths": 5,
+                "injuries": 898
+            },
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 572
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 124
+            }
+        },
+        "all": {
+            "deaths": 18,
+            "injuries": 3399
+        },
+        "name": "May 2014"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 1165
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 594
+            },
+            "Queens": {
+                "deaths": 6,
+                "injuries": 769
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 116
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 424
+            }
+        },
+        "all": {
+            "deaths": 18,
+            "injuries": 3068
+        },
+        "name": "Apr 2014"
+    },
+    {
+        "breakdown": {
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 433
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 497
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 750
+            },
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 1107
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 114
+            }
+        },
+        "all": {
+            "deaths": 13,
+            "injuries": 2901
+        },
+        "name": "Mar 2014"
+    },
+    {
+        "breakdown": {
+            "Manhattan": {
+                "deaths": 0,
+                "injuries": 471
+            },
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 329
+            },
+            "Queens": {
+                "deaths": 1,
+                "injuries": 597
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 115
+            },
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 813
+            }
+        },
+        "all": {
+            "deaths": 8,
+            "injuries": 2325
+        },
+        "name": "Feb 2014"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 1,
+                "injuries": 748
+            },
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1053
+            },
+            "Manhattan": {
+                "deaths": 5,
+                "injuries": 571
+            },
+            "Bronx": {
+                "deaths": 3,
+                "injuries": 477
+            },
+            "Staten Island": {
+                "deaths": 3,
+                "injuries": 138
+            }
+        },
+        "all": {
+            "deaths": 17,
+            "injuries": 2987
+        },
+        "name": "Jan 2014"
+    },
+    {
+        "breakdown": {
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 479
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 550
+            },
+            "Queens": {
+                "deaths": 6,
+                "injuries": 865
+            },
+            "Brooklyn": {
+                "deaths": 4,
+                "injuries": 1203
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 129
+            }
+        },
+        "all": {
+            "deaths": 15,
+            "injuries": 3226
+        },
+        "name": "Dec 2013"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 4,
+                "injuries": 1307
+            },
+            "Queens": {
+                "deaths": 6,
+                "injuries": 877
+            },
+            "Bronx": {
+                "deaths": 6,
+                "injuries": 534
+            },
+            "Manhattan": {
+                "deaths": 7,
+                "injuries": 634
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 155
+            }
+        },
+        "all": {
+            "deaths": 23,
+            "injuries": 3507
+        },
+        "name": "Nov 2013"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 8,
+                "injuries": 1341
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 942
+            },
+            "Manhattan": {
+                "deaths": 1,
+                "injuries": 681
+            },
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 528
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 156
+            }
+        },
+        "all": {
+            "deaths": 17,
+            "injuries": 3648
+        },
+        "name": "Oct 2013"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 11,
+                "injuries": 978
+            },
+            "Manhattan": {
+                "deaths": 1,
+                "injuries": 717
+            },
+            "Brooklyn": {
+                "deaths": 4,
+                "injuries": 1396
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 577
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 135
+            }
+        },
+        "all": {
+            "deaths": 18,
+            "injuries": 3803
+        },
+        "name": "Sep 2013"
+    },
+    {
+        "breakdown": {
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 500
+            },
+            "Brooklyn": {
+                "deaths": 10,
+                "injuries": 1411
+            },
+            "Manhattan": {
+                "deaths": 4,
+                "injuries": 679
+            },
+            "Queens": {
+                "deaths": 9,
+                "injuries": 918
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 145
+            }
+        },
+        "all": {
+            "deaths": 26,
+            "injuries": 3653
+        },
+        "name": "Aug 2013"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 8,
+                "injuries": 963
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 603
+            },
+            "Manhattan": {
+                "deaths": 4,
+                "injuries": 697
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 168
+            },
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 1443
+            }
+        },
+        "all": {
+            "deaths": 20,
+            "injuries": 3874
+        },
+        "name": "Jul 2013"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 3,
+                "injuries": 1453
+            },
+            "Queens": {
+                "deaths": 1,
+                "injuries": 950
+            },
+            "Manhattan": {
+                "deaths": 5,
+                "injuries": 698
+            },
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 574
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 246
+            }
+        },
+        "all": {
+            "deaths": 13,
+            "injuries": 3921
+        },
+        "name": "Jun 2013"
+    },
+    {
+        "breakdown": {
+            "Manhattan": {
+                "deaths": 0,
+                "injuries": 656
+            },
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 574
+            },
+            "Brooklyn": {
+                "deaths": 4,
+                "injuries": 1419
+            },
+            "Queens": {
+                "deaths": 5,
+                "injuries": 1017
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 210
+            }
+        },
+        "all": {
+            "deaths": 13,
+            "injuries": 3876
+        },
+        "name": "May 2013"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1281
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 609
+            },
+            "Queens": {
+                "deaths": 3,
+                "injuries": 860
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 221
+            },
+            "Bronx": {
+                "deaths": 0,
+                "injuries": 504
+            }
+        },
+        "all": {
+            "deaths": 11,
+            "injuries": 3475
+        },
+        "name": "Apr 2013"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 3,
+                "injuries": 866
+            },
+            "Brooklyn": {
+                "deaths": 7,
+                "injuries": 1122
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 576
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 209
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 482
+            }
+        },
+        "all": {
+            "deaths": 14,
+            "injuries": 3255
+        },
+        "name": "Mar 2013"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 6,
+                "injuries": 624
+            },
+            "Bronx": {
+                "deaths": 1,
+                "injuries": 468
+            },
+            "Manhattan": {
+                "deaths": 5,
+                "injuries": 532
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 157
+            },
+            "Brooklyn": {
+                "deaths": 3,
+                "injuries": 938
+            }
+        },
+        "all": {
+            "deaths": 16,
+            "injuries": 2719
+        },
+        "name": "Feb 2013"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 9,
+                "injuries": 820
+            },
+            "Brooklyn": {
+                "deaths": 9,
+                "injuries": 1095
+            },
+            "Manhattan": {
+                "deaths": 5,
+                "injuries": 555
+            },
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 436
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 180
+            }
+        },
+        "all": {
+            "deaths": 27,
+            "injuries": 3086
+        },
+        "name": "Jan 2013"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 6,
+                "injuries": 919
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 603
+            },
+            "Brooklyn": {
+                "deaths": 8,
+                "injuries": 1310
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 522
+            },
+            "Staten Island": {
+                "deaths": 3,
+                "injuries": 204
+            }
+        },
+        "all": {
+            "deaths": 22,
+            "injuries": 3558
+        },
+        "name": "Dec 2012"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1056
+            },
+            "Queens": {
+                "deaths": 3,
+                "injuries": 859
+            },
+            "Bronx": {
+                "deaths": 0,
+                "injuries": 416
+            },
+            "Manhattan": {
+                "deaths": 2,
+                "injuries": 587
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 205
+            }
+        },
+        "all": {
+            "deaths": 12,
+            "injuries": 3123
+        },
+        "name": "Nov 2012"
+    },
+    {
+        "breakdown": {
+            "Queens": {
+                "deaths": 5,
+                "injuries": 950
+            },
+            "Bronx": {
+                "deaths": 3,
+                "injuries": 462
+            },
+            "Brooklyn": {
+                "deaths": 3,
+                "injuries": 1256
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 624
+            },
+            "Staten Island": {
+                "deaths": 2,
+                "injuries": 225
+            }
+        },
+        "all": {
+            "deaths": 16,
+            "injuries": 3517
+        },
+        "name": "Oct 2012"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 1288
+            },
+            "Staten Island": {
+                "deaths": 0,
+                "injuries": 207
+            },
+            "Manhattan": {
+                "deaths": 7,
+                "injuries": 674
+            },
+            "Queens": {
+                "deaths": 4,
+                "injuries": 914
+            },
+            "Bronx": {
+                "deaths": 2,
+                "injuries": 464
+            }
+        },
+        "all": {
+            "deaths": 19,
+            "injuries": 3547
+        },
+        "name": "Sep 2012"
+    },
+    {
+        "breakdown": {
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 677
+            },
+            "Brooklyn": {
+                "deaths": 6,
+                "injuries": 1270
+            },
+            "Bronx": {
+                "deaths": 6,
+                "injuries": 466
+            },
+            "Staten Island": {
+                "deaths": 3,
+                "injuries": 220
+            },
+            "Queens": {
+                "deaths": 2,
+                "injuries": 958
+            }
+        },
+        "all": {
+            "deaths": 20,
+            "injuries": 3591
+        },
+        "name": "Aug 2012"
+    },
+    {
+        "breakdown": {
+            "Brooklyn": {
+                "deaths": 5,
+                "injuries": 1344
+            },
+            "Queens": {
+                "deaths": 8,
+                "injuries": 906
+            },
+            "Manhattan": {
+                "deaths": 3,
+                "injuries": 702
+            },
+            "Bronx": {
+                "deaths": 4,
+                "injuries": 548
+            },
+            "Staten Island": {
+                "deaths": 1,
+                "injuries": 184
+            }
+        },
+        "all": {
+            "deaths": 21,
+            "injuries": 3684
+        },
+        "name": "Jul 2012"
+    }
+]
