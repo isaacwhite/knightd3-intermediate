@@ -4,7 +4,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 
     <style type="text/css">
-
     .axis path,
     .axis line {
       fill: none;
@@ -16,34 +15,121 @@
         font-size: 8px;
     }
 
+    .x.axis text {
+        transform-origin: top left;
+        transform: rotate(90deg) translate(25px, -12px);
+    }
+
+    .chart-container {
+        display: block;
+        max-width: 65em;
+        margin: 30px auto 0;
+        padding: 15px;
+        background: white;
+    }
+
+    body {
+        background: #d7d7d7;
+        font-family: arial, helvetica, sans-serif;
+    }
+
     </style>
 </head>
 <body>
-    <p>The NYPD keeps a record of vehicle collections which are reported in NYC. Data includes time, precise location, borough, zip code, possible contributing factors to the incident, as well as categories of persons injured/killed. Data has been condensed for this graphic to only expose aggregate data on borough deaths/injuries by month. Original data from <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95">NYC Open Data</a>.</p>
+    <div class="chart-container">
+        <p class="chart-description">The NYPD keeps a record of vehicle collections which are reported in NYC. Data includes time, precise location, borough, zip code, possible contributing factors to the incident, as well as categories of persons injured/killed. Data has been condensed for this graphic to only expose aggregate data on borough deaths/injuries by month. Original data from <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95">NYC Open Data</a>.</p>
+    </div>
 
 </body>
 
 <script type="text/javascript">
     (function () {
         'use strict';
-
+        // grab a local reference to D3
         var d3 = window.d3;
-        var width = 900;
-        var height = 500;
+
+        // abstract out the function for drawing a column chart
+        // var drawChartColumnChart = function (options) {
+        //     var canvas = {
+        //         width: options.width || 900,
+        //         height: options.height || 500,
+        //         padding: options.padding || {
+        //             top: 20,
+        //             right: 20,
+        //             bottom: 20,
+        //             left: 20
+        //         }
+        //     };
+        //     var chart = {
+        //         width: canvas.width - canvas.padding.right - canvas.padding.left,
+        //         height: canvas.height - canvas.padding.top - canvas.padding.bottom,
+        //         xScale: options.xScale || {
+        //             type: 'ordinal',
+        //             method: 'rangeRoundBands',
+        //             spacing: 0.1
+        //         },
+        //         yScale: options.yScale || {
+        //             type: 'linear',
+        //             method: 'rangeRound'
+        //         },
+        //         xAxis: options.xAxis || {},
+        //         yAxis: options.yAxis || {}
+        //     };
+        //     var scales = {
+        //         x: d3
+        //             .scale
+        //             [chart.xScale.type]()
+        //             [method]([0, width], chart.xScale.spacing),
+        //         y: d3
+        //             .scale
+        //             [chart.yScale.type]()
+        //             [method]([height, 0])
+        //     };
+        //     var axes = {
+        //         x: d3
+        //             .axis()
+        //             .scale(scales.x)
+        //             .orient('bottom')
+        //             .ticks(xAxis.ticks)
+        //         y: d3
+        //             .axis()
+        //             .scale(scales.y)
+        //             .orient('left')
+        //             .ticks(yAxis.ticks)
+        //     };
+
+
+
+
+        // };
+
+        // var canvas = {
+        //     width: 900,
+        //     height: 500,
+        //     padding: {
+        //         top: 20,
+        //         right: 10,
+        //         bottom: 60,
+        //         left: 50
+        //     }
+        // };
+
         var padding = {
             top: 20,
             right: 10,
-            bottom: 30,
+            bottom: 60,
             left: 50
         };
+        var width = 900 - padding.right - padding.left;
+        var height = 500 - padding.top - padding.bottom;
 
         var xScale = d3.scale
             .ordinal()
-            .rangeRoundBands([0, width - padding.right - padding.left], 0.1);
+            .rangeRoundBands([0, width], 0.1);
 
         var yScale = d3.scale
             .linear()
-            .range([height - padding.top - padding.bottom, 0]);
+            .rangeRound([height, 0]);
 
         var xAxis = d3.svg
             .axis()
@@ -53,25 +139,42 @@
         var yAxis = d3.svg
             .axis()
             .scale(yScale)
-            .orient('left');
+            .orient('left')
+            .ticks(16);
 
-        var svg = d3.select('body')
+        var svg = d3.select('.chart-container')
             .append('svg')
             .attr({
-                width: width,
-                height: height
+                width: width + padding.left + padding.right,
+                height: height + padding.bottom + padding.top
             });
 
-        d3.json('data_cleanup/output/nyc_motor_vehicle_collisions.json', function (data) {
-            var groups, bars;
+        var mousePosition = {};
 
-            data = data.reverse();
+        window.onmousemove = function (e) {
+            mousePosition = {
+                x: e.x,
+                y: e.y
+            };
+        };
+
+        d3.json('data_cleanup/output/nyc_motor_vehicle_collisions.json', function (data) {
+            var groups, bars, modal;
+
+            data = data
+                .map(function (datum) {
+                    datum.all.total = datum.all.deaths + datum.all.injuries;
+
+                    return datum;
+                })
+                .reverse();
+
             xScale.domain(data.map(function (datum) {
                 return datum.name;
             }));
 
             yScale.domain([0, d3.max(data, function (datum) {
-                return datum.all.deaths + datum.all.injuries;
+                return datum.all.total;
             })]);
 
             groups = svg
@@ -81,17 +184,32 @@
                 .append('g')
                 .attr('class', 'bar');
 
+            // modalGroups = svg
+            //     .select('svg')
+            //     .append('g')
+            //     .attr({
+            //         id: 'modal',
+            //         class: 'details-modal'
+            //     })
+            //     .selectAll('g')
+            //     .enter()
+            //     .append('g')
+
             bars = groups.append('rect')
                 .attr({
                     x: function (datum) {
                         return padding.left + xScale(datum.name);
                     },
-                    y: function (datum) {
-                        return height - padding.top - yScale(datum.all.deaths + datum.all.injuries);
+                    y: function () {
+                        return height;
                     },
                     width: xScale.rangeBand(),
                     height: 0,
                     fill: 'steelblue'
+                })
+                .on('mouseover', function (datum, e) {
+                    console.log(mousePosition);
+                    // console.log(datum, e, this);
                 });
 
             bars.transition()
@@ -99,18 +217,23 @@
                     return index * 50;
                 })
                 .duration(1000)
-                .attr('height', function (datum) {
-                    return yScale(datum.all.deaths + datum.all.injuries);
+                .attr({
+                    height: function (datum) {
+                        return height - yScale(datum.all.total);
+                    },
+                    y: function (datum) {
+                        return yScale(datum.all.total);
+                    }
                 });
 
             svg.append('g')
                 .attr('class', 'x axis')
-                .attr('transform', 'translate(' + padding.left + ',' + (height - padding.bottom) + ')')
+                .attr('transform', 'translate(' + padding.left + ',' + height + ')')
                 .call(xAxis);
 
             svg.append('g')
                 .attr('class', 'y axis')
-                .attr('transform', 'translate(' + padding.left + ',0)')
+                .attr('transform', 'translate(' + padding.left + ', 0)')
                 .call(yAxis);
 
         });
