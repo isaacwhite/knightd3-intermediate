@@ -36,11 +36,7 @@ csv.on('readable', function () {
             order.push(month);
 
             monthData = {
-                breakdown: {},
-                all: {
-                    deaths: 0,
-                    injuries: 0
-                }
+                breakdown: {}
             };
         }
 
@@ -56,9 +52,6 @@ csv.on('readable', function () {
         monthData.breakdown[borough].deaths += deaths;
         monthData.breakdown[borough].injuries += injuries;
 
-        monthData.all.deaths += deaths;
-        monthData.all.injuries += injuries;
-
         // assign our updated object back
         months[month] = monthData;
 
@@ -70,10 +63,35 @@ csv.on('readable', function () {
 csv.on('end', function () {
     var formatted;
 
-    order = order.map(function (month) {
-        months[month].name = month;
+    // convert order list of names into reverse ordered data
+    order = order.reverse().map(function (monthName) {
+        var data = months[monthName];
 
-        return months[month];
+        // attach the name of the month to the object
+        data.name = monthName;
+
+        // modify our breakdowns by reference
+        Object.keys(data.breakdown).forEach(function (borough) {
+            var bData = data.breakdown[borough];
+
+            bData.total = bData.injuries + bData.deaths;
+        });
+
+        data.all = Object.keys(data.breakdown).reduce(function (soFar, borough) {
+            var bData = data.breakdown[borough];
+
+            soFar.deaths += bData.deaths;
+            soFar.injuries += bData.injuries;
+            soFar.total += bData.total;
+
+            return soFar;
+        }, {
+            deaths: 0,
+            injuries: 0,
+            total: 0
+        });
+
+        return data;
     });
 
     formatted = JSON.stringify(order, null, 4);
