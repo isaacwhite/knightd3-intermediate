@@ -4,26 +4,31 @@
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1344,
+                "incidents": 3884,
                 "total": 1349
             },
             "Queens": {
                 "deaths": 8,
                 "injuries": 906,
+                "incidents": 3204,
                 "total": 914
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 702,
+                "incidents": 3653,
                 "total": 705
             },
             "Bronx": {
                 "deaths": 4,
                 "injuries": 548,
+                "incidents": 1641,
                 "total": 552
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 184,
+                "incidents": 768,
                 "total": 185
             }
         },
@@ -31,7 +36,8 @@
         "all": {
             "deaths": 21,
             "injuries": 3684,
-            "total": 3705
+            "total": 3705,
+            "incidents": 13150
         }
     },
     {
@@ -39,26 +45,31 @@
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 677,
+                "incidents": 3594,
                 "total": 680
             },
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 1270,
+                "incidents": 3915,
                 "total": 1276
             },
             "Bronx": {
                 "deaths": 6,
                 "injuries": 466,
+                "incidents": 1665,
                 "total": 472
             },
             "Staten Island": {
                 "deaths": 3,
                 "injuries": 220,
+                "incidents": 849,
                 "total": 223
             },
             "Queens": {
                 "deaths": 2,
                 "injuries": 958,
+                "incidents": 3149,
                 "total": 960
             }
         },
@@ -66,7 +77,8 @@
         "all": {
             "deaths": 20,
             "injuries": 3591,
-            "total": 3611
+            "total": 3611,
+            "incidents": 13172
         }
     },
     {
@@ -74,26 +86,31 @@
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 1288,
+                "incidents": 3786,
                 "total": 1294
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 207,
+                "incidents": 808,
                 "total": 207
             },
             "Manhattan": {
                 "deaths": 7,
                 "injuries": 674,
+                "incidents": 3506,
                 "total": 681
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 914,
+                "incidents": 3150,
                 "total": 918
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 464,
+                "incidents": 1548,
                 "total": 466
             }
         },
@@ -101,7 +118,8 @@
         "all": {
             "deaths": 19,
             "injuries": 3547,
-            "total": 3566
+            "total": 3566,
+            "incidents": 12798
         }
     },
     {
@@ -109,26 +127,31 @@
             "Queens": {
                 "deaths": 5,
                 "injuries": 950,
+                "incidents": 3174,
                 "total": 955
             },
             "Bronx": {
                 "deaths": 3,
                 "injuries": 462,
+                "incidents": 1604,
                 "total": 465
             },
             "Brooklyn": {
                 "deaths": 3,
                 "injuries": 1256,
+                "incidents": 3881,
                 "total": 1259
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 624,
+                "incidents": 3497,
                 "total": 627
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 225,
+                "incidents": 831,
                 "total": 227
             }
         },
@@ -136,7 +159,8 @@
         "all": {
             "deaths": 16,
             "injuries": 3517,
-            "total": 3533
+            "total": 3533,
+            "incidents": 12987
         }
     },
     {
@@ -144,26 +168,31 @@
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1056,
+                "incidents": 3752,
                 "total": 1061
             },
             "Queens": {
                 "deaths": 3,
                 "injuries": 859,
+                "incidents": 3186,
                 "total": 862
             },
             "Bronx": {
                 "deaths": 0,
                 "injuries": 416,
+                "incidents": 1444,
                 "total": 416
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 587,
+                "incidents": 3064,
                 "total": 589
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 205,
+                "incidents": 798,
                 "total": 207
             }
         },
@@ -171,7 +200,8 @@
         "all": {
             "deaths": 12,
             "injuries": 3123,
-            "total": 3135
+            "total": 3135,
+            "incidents": 12244
         }
     },
     {
@@ -179,26 +209,31 @@
             "Queens": {
                 "deaths": 6,
                 "injuries": 919,
+                "incidents": 3272,
                 "total": 925
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 603,
+                "incidents": 3402,
                 "total": 606
             },
             "Brooklyn": {
                 "deaths": 8,
                 "injuries": 1310,
+                "incidents": 4080,
                 "total": 1318
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 522,
+                "incidents": 1607,
                 "total": 524
             },
             "Staten Island": {
                 "deaths": 3,
                 "injuries": 204,
+                "incidents": 848,
                 "total": 207
             }
         },
@@ -206,7 +241,8 @@
         "all": {
             "deaths": 22,
             "injuries": 3558,
-            "total": 3580
+            "total": 3580,
+            "incidents": 13209
         }
     },
     {
@@ -214,26 +250,31 @@
             "Queens": {
                 "deaths": 9,
                 "injuries": 820,
+                "incidents": 3047,
                 "total": 829
             },
             "Brooklyn": {
                 "deaths": 9,
                 "injuries": 1095,
+                "incidents": 3656,
                 "total": 1104
             },
             "Manhattan": {
                 "deaths": 5,
                 "injuries": 555,
+                "incidents": 3017,
                 "total": 560
             },
             "Bronx": {
                 "deaths": 4,
                 "injuries": 436,
+                "incidents": 1486,
                 "total": 440
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 180,
+                "incidents": 773,
                 "total": 180
             }
         },
@@ -241,7 +282,8 @@
         "all": {
             "deaths": 27,
             "injuries": 3086,
-            "total": 3113
+            "total": 3113,
+            "incidents": 11979
         }
     },
     {
@@ -249,26 +291,31 @@
             "Queens": {
                 "deaths": 6,
                 "injuries": 624,
+                "incidents": 2733,
                 "total": 630
             },
             "Bronx": {
                 "deaths": 1,
                 "injuries": 468,
+                "incidents": 1541,
                 "total": 469
             },
             "Manhattan": {
                 "deaths": 5,
                 "injuries": 532,
+                "incidents": 2856,
                 "total": 537
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 157,
+                "incidents": 717,
                 "total": 158
             },
             "Brooklyn": {
                 "deaths": 3,
                 "injuries": 938,
+                "incidents": 3399,
                 "total": 941
             }
         },
@@ -276,7 +323,8 @@
         "all": {
             "deaths": 16,
             "injuries": 2719,
-            "total": 2735
+            "total": 2735,
+            "incidents": 11246
         }
     },
     {
@@ -284,26 +332,31 @@
             "Queens": {
                 "deaths": 3,
                 "injuries": 866,
+                "incidents": 3285,
                 "total": 869
             },
             "Brooklyn": {
                 "deaths": 7,
                 "injuries": 1122,
+                "incidents": 3686,
                 "total": 1129
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 576,
+                "incidents": 3285,
                 "total": 578
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 209,
+                "incidents": 807,
                 "total": 209
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 482,
+                "incidents": 1746,
                 "total": 484
             }
         },
@@ -311,7 +364,8 @@
         "all": {
             "deaths": 14,
             "injuries": 3255,
-            "total": 3269
+            "total": 3269,
+            "incidents": 12809
         }
     },
     {
@@ -319,26 +373,31 @@
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1281,
+                "incidents": 3871,
                 "total": 1286
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 609,
+                "incidents": 3358,
                 "total": 612
             },
             "Queens": {
                 "deaths": 3,
                 "injuries": 860,
+                "incidents": 3115,
                 "total": 863
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 221,
+                "incidents": 765,
                 "total": 221
             },
             "Bronx": {
                 "deaths": 0,
                 "injuries": 504,
+                "incidents": 1602,
                 "total": 504
             }
         },
@@ -346,7 +405,8 @@
         "all": {
             "deaths": 11,
             "injuries": 3475,
-            "total": 3486
+            "total": 3486,
+            "incidents": 12711
         }
     },
     {
@@ -354,26 +414,31 @@
             "Manhattan": {
                 "deaths": 0,
                 "injuries": 656,
+                "incidents": 3841,
                 "total": 656
             },
             "Bronx": {
                 "deaths": 4,
                 "injuries": 574,
+                "incidents": 1808,
                 "total": 578
             },
             "Brooklyn": {
                 "deaths": 4,
                 "injuries": 1419,
+                "incidents": 4284,
                 "total": 1423
             },
             "Queens": {
                 "deaths": 5,
                 "injuries": 1017,
+                "incidents": 3497,
                 "total": 1022
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 210,
+                "incidents": 904,
                 "total": 210
             }
         },
@@ -381,7 +446,8 @@
         "all": {
             "deaths": 13,
             "injuries": 3876,
-            "total": 3889
+            "total": 3889,
+            "incidents": 14334
         }
     },
     {
@@ -389,26 +455,31 @@
             "Brooklyn": {
                 "deaths": 3,
                 "injuries": 1453,
+                "incidents": 4318,
                 "total": 1456
             },
             "Queens": {
                 "deaths": 1,
                 "injuries": 950,
+                "incidents": 3344,
                 "total": 951
             },
             "Manhattan": {
                 "deaths": 5,
                 "injuries": 698,
+                "incidents": 3739,
                 "total": 703
             },
             "Bronx": {
                 "deaths": 4,
                 "injuries": 574,
+                "incidents": 1748,
                 "total": 578
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 246,
+                "incidents": 894,
                 "total": 246
             }
         },
@@ -416,7 +487,8 @@
         "all": {
             "deaths": 13,
             "injuries": 3921,
-            "total": 3934
+            "total": 3934,
+            "incidents": 14043
         }
     },
     {
@@ -424,26 +496,31 @@
             "Queens": {
                 "deaths": 8,
                 "injuries": 963,
+                "incidents": 3435,
                 "total": 971
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 603,
+                "incidents": 1749,
                 "total": 605
             },
             "Manhattan": {
                 "deaths": 4,
                 "injuries": 697,
+                "incidents": 3597,
                 "total": 701
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 168,
+                "incidents": 513,
                 "total": 168
             },
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 1443,
+                "incidents": 3984,
                 "total": 1449
             }
         },
@@ -451,7 +528,8 @@
         "all": {
             "deaths": 20,
             "injuries": 3874,
-            "total": 3894
+            "total": 3894,
+            "incidents": 13278
         }
     },
     {
@@ -459,26 +537,31 @@
             "Bronx": {
                 "deaths": 2,
                 "injuries": 500,
+                "incidents": 1605,
                 "total": 502
             },
             "Brooklyn": {
                 "deaths": 10,
                 "injuries": 1411,
+                "incidents": 3900,
                 "total": 1421
             },
             "Manhattan": {
                 "deaths": 4,
                 "injuries": 679,
+                "incidents": 3541,
                 "total": 683
             },
             "Queens": {
                 "deaths": 9,
                 "injuries": 918,
+                "incidents": 3078,
                 "total": 927
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 145,
+                "incidents": 529,
                 "total": 146
             }
         },
@@ -486,7 +569,8 @@
         "all": {
             "deaths": 26,
             "injuries": 3653,
-            "total": 3679
+            "total": 3679,
+            "incidents": 12653
         }
     },
     {
@@ -494,26 +578,31 @@
             "Queens": {
                 "deaths": 11,
                 "injuries": 978,
+                "incidents": 3270,
                 "total": 989
             },
             "Manhattan": {
                 "deaths": 1,
                 "injuries": 717,
+                "incidents": 3565,
                 "total": 718
             },
             "Brooklyn": {
                 "deaths": 4,
                 "injuries": 1396,
+                "incidents": 3806,
                 "total": 1400
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 577,
+                "incidents": 1666,
                 "total": 579
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 135,
+                "incidents": 551,
                 "total": 135
             }
         },
@@ -521,7 +610,8 @@
         "all": {
             "deaths": 18,
             "injuries": 3803,
-            "total": 3821
+            "total": 3821,
+            "incidents": 12858
         }
     },
     {
@@ -529,26 +619,31 @@
             "Brooklyn": {
                 "deaths": 8,
                 "injuries": 1341,
+                "incidents": 4022,
                 "total": 1349
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 942,
+                "incidents": 3502,
                 "total": 946
             },
             "Manhattan": {
                 "deaths": 1,
                 "injuries": 681,
+                "incidents": 3703,
                 "total": 682
             },
             "Bronx": {
                 "deaths": 4,
                 "injuries": 528,
+                "incidents": 1580,
                 "total": 532
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 156,
+                "incidents": 609,
                 "total": 156
             }
         },
@@ -556,7 +651,8 @@
         "all": {
             "deaths": 17,
             "injuries": 3648,
-            "total": 3665
+            "total": 3665,
+            "incidents": 13416
         }
     },
     {
@@ -564,26 +660,31 @@
             "Brooklyn": {
                 "deaths": 4,
                 "injuries": 1307,
+                "incidents": 4056,
                 "total": 1311
             },
             "Queens": {
                 "deaths": 6,
                 "injuries": 877,
+                "incidents": 3532,
                 "total": 883
             },
             "Bronx": {
                 "deaths": 6,
                 "injuries": 534,
+                "incidents": 1610,
                 "total": 540
             },
             "Manhattan": {
                 "deaths": 7,
                 "injuries": 634,
+                "incidents": 3622,
                 "total": 641
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 155,
+                "incidents": 607,
                 "total": 155
             }
         },
@@ -591,7 +692,8 @@
         "all": {
             "deaths": 23,
             "injuries": 3507,
-            "total": 3530
+            "total": 3530,
+            "incidents": 13427
         }
     },
     {
@@ -599,26 +701,31 @@
             "Bronx": {
                 "deaths": 1,
                 "injuries": 479,
+                "incidents": 1625,
                 "total": 480
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 550,
+                "incidents": 3453,
                 "total": 552
             },
             "Queens": {
                 "deaths": 6,
                 "injuries": 865,
+                "incidents": 3465,
                 "total": 871
             },
             "Brooklyn": {
                 "deaths": 4,
                 "injuries": 1203,
+                "incidents": 4025,
                 "total": 1207
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 129,
+                "incidents": 626,
                 "total": 131
             }
         },
@@ -626,7 +733,8 @@
         "all": {
             "deaths": 15,
             "injuries": 3226,
-            "total": 3241
+            "total": 3241,
+            "incidents": 13194
         }
     },
     {
@@ -634,26 +742,31 @@
             "Queens": {
                 "deaths": 1,
                 "injuries": 748,
+                "incidents": 3400,
                 "total": 749
             },
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1053,
+                "incidents": 3908,
                 "total": 1058
             },
             "Manhattan": {
                 "deaths": 5,
                 "injuries": 571,
+                "incidents": 3140,
                 "total": 576
             },
             "Bronx": {
                 "deaths": 3,
                 "injuries": 477,
+                "incidents": 1635,
                 "total": 480
             },
             "Staten Island": {
                 "deaths": 3,
                 "injuries": 138,
+                "incidents": 627,
                 "total": 141
             }
         },
@@ -661,7 +774,8 @@
         "all": {
             "deaths": 17,
             "injuries": 2987,
-            "total": 3004
+            "total": 3004,
+            "incidents": 12710
         }
     },
     {
@@ -669,26 +783,31 @@
             "Manhattan": {
                 "deaths": 0,
                 "injuries": 471,
+                "incidents": 2914,
                 "total": 471
             },
             "Bronx": {
                 "deaths": 1,
                 "injuries": 329,
+                "incidents": 1686,
                 "total": 330
             },
             "Queens": {
                 "deaths": 1,
                 "injuries": 597,
+                "incidents": 3338,
                 "total": 598
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 115,
+                "incidents": 612,
                 "total": 115
             },
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 813,
+                "incidents": 3590,
                 "total": 819
             }
         },
@@ -696,7 +815,8 @@
         "all": {
             "deaths": 8,
             "injuries": 2325,
-            "total": 2333
+            "total": 2333,
+            "incidents": 12140
         }
     },
     {
@@ -704,26 +824,31 @@
             "Bronx": {
                 "deaths": 1,
                 "injuries": 433,
+                "incidents": 1561,
                 "total": 434
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 497,
+                "incidents": 3134,
                 "total": 499
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 750,
+                "incidents": 3177,
                 "total": 754
             },
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 1107,
+                "incidents": 3719,
                 "total": 1113
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 114,
+                "incidents": 531,
                 "total": 114
             }
         },
@@ -731,7 +856,8 @@
         "all": {
             "deaths": 13,
             "injuries": 2901,
-            "total": 2914
+            "total": 2914,
+            "incidents": 12122
         }
     },
     {
@@ -739,26 +865,31 @@
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 1165,
+                "incidents": 3767,
                 "total": 1171
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 594,
+                "incidents": 3415,
                 "total": 597
             },
             "Queens": {
                 "deaths": 6,
                 "injuries": 769,
+                "incidents": 3202,
                 "total": 775
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 116,
+                "incidents": 501,
                 "total": 117
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 424,
+                "incidents": 1528,
                 "total": 426
             }
         },
@@ -766,7 +897,8 @@
         "all": {
             "deaths": 18,
             "injuries": 3068,
-            "total": 3086
+            "total": 3086,
+            "incidents": 12413
         }
     },
     {
@@ -774,26 +906,31 @@
             "Brooklyn": {
                 "deaths": 9,
                 "injuries": 1201,
+                "incidents": 4204,
                 "total": 1210
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 604,
+                "incidents": 3816,
                 "total": 607
             },
             "Queens": {
                 "deaths": 5,
                 "injuries": 898,
+                "incidents": 3475,
                 "total": 903
             },
             "Bronx": {
                 "deaths": 1,
                 "injuries": 572,
+                "incidents": 1686,
                 "total": 573
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 124,
+                "incidents": 527,
                 "total": 124
             }
         },
@@ -801,7 +938,8 @@
         "all": {
             "deaths": 18,
             "injuries": 3399,
-            "total": 3417
+            "total": 3417,
+            "incidents": 13708
         }
     },
     {
@@ -809,26 +947,31 @@
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1398,
+                "incidents": 4247,
                 "total": 1403
             },
             "Queens": {
                 "deaths": 7,
                 "injuries": 925,
+                "incidents": 3626,
                 "total": 932
             },
             "Manhattan": {
                 "deaths": 1,
                 "injuries": 663,
+                "incidents": 3716,
                 "total": 664
             },
             "Bronx": {
                 "deaths": 1,
                 "injuries": 642,
+                "incidents": 1747,
                 "total": 643
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 142,
+                "incidents": 629,
                 "total": 144
             }
         },
@@ -836,7 +979,8 @@
         "all": {
             "deaths": 16,
             "injuries": 3770,
-            "total": 3786
+            "total": 3786,
+            "incidents": 13965
         }
     },
     {
@@ -844,26 +988,31 @@
             "Manhattan": {
                 "deaths": 4,
                 "injuries": 642,
+                "incidents": 3500,
                 "total": 646
             },
             "Bronx": {
                 "deaths": 1,
                 "injuries": 543,
+                "incidents": 1662,
                 "total": 544
             },
             "Queens": {
                 "deaths": 9,
                 "injuries": 902,
+                "incidents": 3428,
                 "total": 911
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 129,
+                "incidents": 526,
                 "total": 131
             },
             "Brooklyn": {
                 "deaths": 7,
                 "injuries": 1242,
+                "incidents": 4069,
                 "total": 1249
             }
         },
@@ -871,7 +1020,8 @@
         "all": {
             "deaths": 23,
             "injuries": 3458,
-            "total": 3481
+            "total": 3481,
+            "incidents": 13185
         }
     },
     {
@@ -879,26 +1029,31 @@
             "Brooklyn": {
                 "deaths": 4,
                 "injuries": 1259,
+                "incidents": 3905,
                 "total": 1263
             },
             "Bronx": {
                 "deaths": 1,
                 "injuries": 480,
+                "incidents": 1610,
                 "total": 481
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 618,
+                "incidents": 3484,
                 "total": 621
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 854,
+                "incidents": 3357,
                 "total": 858
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 145,
+                "incidents": 505,
                 "total": 145
             }
         },
@@ -906,7 +1061,8 @@
         "all": {
             "deaths": 12,
             "injuries": 3356,
-            "total": 3368
+            "total": 3368,
+            "incidents": 12861
         }
     },
     {
@@ -914,26 +1070,31 @@
             "Manhattan": {
                 "deaths": 6,
                 "injuries": 513,
+                "incidents": 3553,
                 "total": 519
             },
             "Bronx": {
                 "deaths": 4,
                 "injuries": 552,
+                "incidents": 1712,
                 "total": 556
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 809,
+                "incidents": 3513,
                 "total": 813
             },
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1294,
+                "incidents": 4163,
                 "total": 1299
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 132,
+                "incidents": 555,
                 "total": 132
             }
         },
@@ -941,7 +1102,8 @@
         "all": {
             "deaths": 19,
             "injuries": 3300,
-            "total": 3319
+            "total": 3319,
+            "incidents": 13496
         }
     },
     {
@@ -949,26 +1111,31 @@
             "Queens": {
                 "deaths": 3,
                 "injuries": 1002,
+                "incidents": 3655,
                 "total": 1005
             },
             "Brooklyn": {
                 "deaths": 4,
                 "injuries": 1337,
+                "incidents": 4221,
                 "total": 1341
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 506,
+                "incidents": 1639,
                 "total": 508
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 649,
+                "incidents": 3651,
                 "total": 652
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 158,
+                "incidents": 606,
                 "total": 158
             }
         },
@@ -976,7 +1143,8 @@
         "all": {
             "deaths": 12,
             "injuries": 3652,
-            "total": 3664
+            "total": 3664,
+            "incidents": 13772
         }
     },
     {
@@ -984,26 +1152,31 @@
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1166,
+                "incidents": 3926,
                 "total": 1171
             },
             "Manhattan": {
                 "deaths": 3,
                 "injuries": 533,
+                "incidents": 3429,
                 "total": 536
             },
             "Queens": {
                 "deaths": 5,
                 "injuries": 915,
+                "incidents": 3433,
                 "total": 920
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 489,
+                "incidents": 1583,
                 "total": 491
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 145,
+                "incidents": 514,
                 "total": 146
             }
         },
@@ -1011,7 +1184,8 @@
         "all": {
             "deaths": 16,
             "injuries": 3248,
-            "total": 3264
+            "total": 3264,
+            "incidents": 12885
         }
     },
     {
@@ -1019,26 +1193,31 @@
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1203,
+                "incidents": 4020,
                 "total": 1208
             },
             "Queens": {
                 "deaths": 3,
                 "injuries": 860,
+                "incidents": 3397,
                 "total": 863
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 118,
+                "incidents": 479,
                 "total": 119
             },
             "Bronx": {
                 "deaths": 0,
                 "injuries": 439,
+                "incidents": 1630,
                 "total": 439
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 550,
+                "incidents": 3494,
                 "total": 552
             }
         },
@@ -1046,7 +1225,8 @@
         "all": {
             "deaths": 11,
             "injuries": 3170,
-            "total": 3181
+            "total": 3181,
+            "incidents": 13020
         }
     },
     {
@@ -1054,26 +1234,31 @@
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 115,
+                "incidents": 552,
                 "total": 115
             },
             "Queens": {
                 "deaths": 5,
                 "injuries": 719,
+                "incidents": 3410,
                 "total": 724
             },
             "Brooklyn": {
                 "deaths": 2,
                 "injuries": 940,
+                "incidents": 3851,
                 "total": 942
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 402,
+                "incidents": 1702,
                 "total": 404
             },
             "Manhattan": {
                 "deaths": 4,
                 "injuries": 409,
+                "incidents": 2869,
                 "total": 413
             }
         },
@@ -1081,7 +1266,8 @@
         "all": {
             "deaths": 13,
             "injuries": 2585,
-            "total": 2598
+            "total": 2598,
+            "incidents": 12384
         }
     },
     {
@@ -1089,26 +1275,31 @@
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 718,
+                "incidents": 3495,
                 "total": 724
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 132,
+                "incidents": 440,
                 "total": 132
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 395,
+                "incidents": 2664,
                 "total": 397
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 506,
+                "incidents": 2870,
                 "total": 510
             },
             "Bronx": {
                 "deaths": 0,
                 "injuries": 250,
+                "incidents": 1435,
                 "total": 250
             }
         },
@@ -1116,7 +1307,8 @@
         "all": {
             "deaths": 12,
             "injuries": 2001,
-            "total": 2013
+            "total": 2013,
+            "incidents": 10904
         }
     },
     {
@@ -1124,26 +1316,31 @@
             "Brooklyn": {
                 "deaths": 3,
                 "injuries": 947,
+                "incidents": 4361,
                 "total": 950
             },
             "Manhattan": {
                 "deaths": 1,
                 "injuries": 510,
+                "incidents": 3396,
                 "total": 511
             },
             "Queens": {
                 "deaths": 1,
                 "injuries": 777,
+                "incidents": 3631,
                 "total": 778
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 122,
+                "incidents": 512,
                 "total": 123
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 403,
+                "incidents": 1822,
                 "total": 405
             }
         },
@@ -1151,7 +1348,8 @@
         "all": {
             "deaths": 8,
             "injuries": 2759,
-            "total": 2767
+            "total": 2767,
+            "incidents": 13722
         }
     },
     {
@@ -1159,26 +1357,31 @@
             "Queens": {
                 "deaths": 5,
                 "injuries": 727,
+                "incidents": 3127,
                 "total": 732
             },
             "Manhattan": {
                 "deaths": 1,
                 "injuries": 500,
+                "incidents": 3521,
                 "total": 501
             },
             "Bronx": {
                 "deaths": 3,
                 "injuries": 456,
+                "incidents": 1623,
                 "total": 459
             },
             "Brooklyn": {
                 "deaths": 4,
                 "injuries": 1058,
+                "incidents": 3868,
                 "total": 1062
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 112,
+                "incidents": 456,
                 "total": 113
             }
         },
@@ -1186,7 +1389,8 @@
         "all": {
             "deaths": 14,
             "injuries": 2853,
-            "total": 2867
+            "total": 2867,
+            "incidents": 12595
         }
     },
     {
@@ -1194,26 +1398,31 @@
             "Queens": {
                 "deaths": 4,
                 "injuries": 983,
+                "incidents": 3641,
                 "total": 987
             },
             "Manhattan": {
                 "deaths": 6,
                 "injuries": 593,
+                "incidents": 3878,
                 "total": 599
             },
             "Brooklyn": {
                 "deaths": 9,
                 "injuries": 1334,
+                "incidents": 4517,
                 "total": 1343
             },
             "Bronx": {
                 "deaths": 4,
                 "injuries": 513,
+                "incidents": 1837,
                 "total": 517
             },
             "Staten Island": {
                 "deaths": 1,
                 "injuries": 150,
+                "incidents": 630,
                 "total": 151
             }
         },
@@ -1221,7 +1430,8 @@
         "all": {
             "deaths": 24,
             "injuries": 3573,
-            "total": 3597
+            "total": 3597,
+            "incidents": 14503
         }
     },
     {
@@ -1229,26 +1439,31 @@
             "Bronx": {
                 "deaths": 4,
                 "injuries": 531,
+                "incidents": 1829,
                 "total": 535
             },
             "Brooklyn": {
                 "deaths": 6,
                 "injuries": 1208,
+                "incidents": 4321,
                 "total": 1214
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 1037,
+                "incidents": 3678,
                 "total": 1041
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 582,
+                "incidents": 3728,
                 "total": 584
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 122,
+                "incidents": 512,
                 "total": 122
             }
         },
@@ -1256,7 +1471,8 @@
         "all": {
             "deaths": 16,
             "injuries": 3480,
-            "total": 3496
+            "total": 3496,
+            "incidents": 14068
         }
     },
     {
@@ -1264,26 +1480,31 @@
             "Manhattan": {
                 "deaths": 0,
                 "injuries": 596,
+                "incidents": 3839,
                 "total": 596
             },
             "Bronx": {
                 "deaths": 0,
                 "injuries": 495,
+                "incidents": 1813,
                 "total": 495
             },
             "Queens": {
                 "deaths": 7,
                 "injuries": 967,
+                "incidents": 3675,
                 "total": 974
             },
             "Brooklyn": {
                 "deaths": 5,
                 "injuries": 1274,
+                "incidents": 4284,
                 "total": 1279
             },
             "Staten Island": {
                 "deaths": 0,
                 "injuries": 145,
+                "incidents": 518,
                 "total": 145
             }
         },
@@ -1291,7 +1512,8 @@
         "all": {
             "deaths": 12,
             "injuries": 3477,
-            "total": 3489
+            "total": 3489,
+            "incidents": 14129
         }
     },
     {
@@ -1299,26 +1521,31 @@
             "Brooklyn": {
                 "deaths": 7,
                 "injuries": 1285,
+                "incidents": 4448,
                 "total": 1292
             },
             "Manhattan": {
                 "deaths": 2,
                 "injuries": 599,
+                "incidents": 3706,
                 "total": 601
             },
             "Bronx": {
                 "deaths": 2,
                 "injuries": 544,
+                "incidents": 1870,
                 "total": 546
             },
             "Queens": {
                 "deaths": 5,
                 "injuries": 933,
+                "incidents": 3659,
                 "total": 938
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 137,
+                "incidents": 500,
                 "total": 139
             }
         },
@@ -1326,7 +1553,8 @@
         "all": {
             "deaths": 18,
             "injuries": 3498,
-            "total": 3516
+            "total": 3516,
+            "incidents": 14183
         }
     },
     {
@@ -1334,26 +1562,31 @@
             "Bronx": {
                 "deaths": 5,
                 "injuries": 507,
+                "incidents": 1755,
                 "total": 512
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 123,
+                "incidents": 502,
                 "total": 125
             },
             "Brooklyn": {
                 "deaths": 2,
                 "injuries": 1260,
+                "incidents": 4372,
                 "total": 1262
             },
             "Manhattan": {
                 "deaths": 0,
                 "injuries": 550,
+                "incidents": 3637,
                 "total": 550
             },
             "Queens": {
                 "deaths": 0,
                 "injuries": 916,
+                "incidents": 3677,
                 "total": 916
             }
         },
@@ -1361,7 +1594,8 @@
         "all": {
             "deaths": 9,
             "injuries": 3356,
-            "total": 3365
+            "total": 3365,
+            "incidents": 13943
         }
     },
     {
@@ -1369,26 +1603,31 @@
             "Brooklyn": {
                 "deaths": 3,
                 "injuries": 720,
+                "incidents": 2942,
                 "total": 723
             },
             "Manhattan": {
                 "deaths": 0,
                 "injuries": 421,
+                "incidents": 2572,
                 "total": 421
             },
             "Bronx": {
                 "deaths": 1,
                 "injuries": 361,
+                "incidents": 1214,
                 "total": 362
             },
             "Queens": {
                 "deaths": 4,
                 "injuries": 632,
+                "incidents": 2453,
                 "total": 636
             },
             "Staten Island": {
                 "deaths": 2,
                 "injuries": 85,
+                "incidents": 350,
                 "total": 87
             }
         },
@@ -1396,7 +1635,8 @@
         "all": {
             "deaths": 10,
             "injuries": 2219,
-            "total": 2229
+            "total": 2229,
+            "incidents": 9531
         }
     }
 ]

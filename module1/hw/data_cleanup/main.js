@@ -45,12 +45,14 @@ csv.on('readable', function () {
 
         monthData.breakdown[borough].deaths = monthData.breakdown[borough].deaths || 0;
         monthData.breakdown[borough].injuries = monthData.breakdown[borough].injuries || 0;
+        monthData.breakdown[borough].incidents = monthData.breakdown[borough].incidents || 0;
 
         deaths = parseInt(data['NUMBER OF PERSONS KILLED'], 10);
         injuries = parseInt(data['NUMBER OF PERSONS INJURED'], 10);
 
         monthData.breakdown[borough].deaths += deaths;
         monthData.breakdown[borough].injuries += injuries;
+        monthData.breakdown[borough].incidents += 1;
 
         // assign our updated object back
         months[month] = monthData;
@@ -83,12 +85,14 @@ csv.on('end', function () {
             soFar.deaths += bData.deaths;
             soFar.injuries += bData.injuries;
             soFar.total += bData.total;
+            soFar.incidents += bData.incidents;
 
             return soFar;
         }, {
             deaths: 0,
             injuries: 0,
-            total: 0
+            total: 0,
+            incidents: 0
         });
 
         return data;

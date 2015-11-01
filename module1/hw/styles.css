@@ -1,0 +1,116 @@
+body {
+    background: #d7d7d7;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 8px;
+}
+
+.chart-heading {
+    max-width: 54em;
+    margin: 20px auto 50px;
+}
+
+.chart-heading h1,
+.chart-heading h4 {
+    margin: 10px 0;
+}
+
+.chart-container > .chart-wrap .x.axis text {
+    transform-origin: top right;
+    transform: translate(-20px, 15px) rotate(-60deg);
+    font-size: 9px;
+}
+
+.chart-container > .chart-wrap .x.axis line,
+.chart-container > .chart-wrap .x.axis path {
+    display: none;
+}
+
+.chart-container {
+    display: block;
+    position: relative;
+    width: 900px;
+    margin: 30px auto 0;
+    padding: 15px;
+    background: white;
+}
+
+.tooltip-container {
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.tooltip-container .chart-wrap {
+    position: relative;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    bottom: -30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #ccc;
+}
+
+.tooltip-arrow .conceal {
+    position: absolute;
+    bottom: -13px;
+    left: -14px;
+    border: 14px solid transparent;
+    border-top: 14px solid white;
+}
+
+.tooltip-arrow.on-top {
+    bottom: initial;
+    top: -30px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #ccc;
+}
+
+.tooltip-arrow.on-top .conceal {
+    bottom: initial;
+    top: -13px;
+    border: 14px solid transparent;
+    border-bottom: 14px solid white;
+}
+
+.tooltip-container .y.axis text {
+    font-size: 11px;
+}
+
+.tooltip-container .y.axis line,
+.tooltip-container .y.axis path {
+    display: none;
+}
+
+.bar text {
+    opacity: 0;
+    fill: white;
+}
+
+.bar:hover text {
+    opacity: 1;
+}
+
+.tooltip-container .bar {
+    fill: steelblue;
+}
+
+.tooltip-container .bar:hover {
+    fill: #bada55;
+}
+.bar:hover;
