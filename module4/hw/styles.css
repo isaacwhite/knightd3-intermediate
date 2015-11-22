@@ -17,3 +17,10 @@ circle {
     fill: blue;
     opacity: 0.25;
 }
+
+.chart-container {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}

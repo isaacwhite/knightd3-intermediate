@@ -3,13 +3,13 @@
 
     // dimensions
     var d = {
-        width: 1000,
-        height: 1000
+        width: 800,
+        height: 800
     };
 
     var projection = d3.geo.mercator()
-        .center([-74, 40.7])
-        .scale(d.width * 90)
+        .center([-73.98, 40.7])
+        .scale(d.width * 100)
         .translate([d.width / 2, d.height / 2]);
 
     var path = d3
