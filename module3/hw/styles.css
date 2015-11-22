@@ -1,0 +1,14 @@
+body {
+    background: #d7d7d7;
+    font-family: arial, helvetica, sans-serif;
+}
+
+svg {
+    background-color: white;
+}
+
+path {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.15;
+}

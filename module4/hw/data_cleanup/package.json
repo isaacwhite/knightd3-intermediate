@@ -1,0 +1,24 @@
+{
+  "name": "data_cleanup",
+  "version": "0.0.1",
+  "description": "Data cleanup for module 1 of intermediate d3 course",
+  "main": "main.js",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/isaacwhite/knightd3-intermediate.git"
+  },
+  "author": "Isaac White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacwhite/knightd3-intermediate/issues"
+  },
+  "homepage": "https://github.com/isaacwhite/knightd3-intermediate#readme"
+}
